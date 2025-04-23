@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 #load any checkpoint
-model=World.load_checkpoint(r"checkpoint\run-1\GABM_1000_R03_individual_data-completed.pkl")
+model=World.load_checkpoint(r"checkpoint/run-1/GABM_R03_NavidAPI_sf_fb_2-final_early.pkl")
 
 mems = []
 #get the responses and other relevant attributes of the agents over time

@@ -119,7 +119,7 @@ class Citizen(mesa.Agent):
         I will provide {self.name}'s relevant memories here:
         {self.get_health_string()}
         {self.name} knows about the Catasat virus spreading across the country. It is an infectious disease that spreads from human to human contact via an airborne virus. The deadliness of the virus is unknown. Scientists are warning about a potential epidemic.
-        {self.name} checks the newspaper and finds that {(self.model.day_infected_is_4[self.model.schedule.steps]*100)/self.model.population: .1f}% of Dewberry Hollow's population caught new infections of the Catasat virus yesterday.
+        {self.name} checks the newspaper and finds that {(self.model.day_infected_is_4[self.model.schedule.steps]*%100)/self.model.population: .1f}% of Dewberry Hollow's population caught new infections of the Catasat virus yesterday.
         {self.name} goes to work to earn money to support {self.name}'s self.
        
         Based on the provided memories, should {self.name} stay at home for the entire day? Please provide your reasoning.

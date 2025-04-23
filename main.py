@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser.add_argument("--contact_rate", default=5, type=int, help="Contact Rate")
     parser.add_argument("--infection_rate", default=0.1, type=float, 
                         help="Infection Rate")
-    parser.add_argument("--no_init_healthy", default=98, type=int, 
+    parser.add_argument("--no_init_healthy", default=18, type=int, 
                         help="Number of initial healthy people in the world.")
     parser.add_argument("--no_init_infect", default= 2, type=int,
                         help="Number of initial infected people in the world.")

@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv() 
+
 from names_dataset import NameDataset
 import numpy as np
 import openai
